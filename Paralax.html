@@ -6,22 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="paralax.css">
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     
 </head>
 <body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper darken-2">
+                <!-- Logo -->
+                <a href="#" class="brand-logo center"><img src="img/icons/cube (1).png"  height="42px" alt="cube"></a>
+
+                <!-- Ícone para abrir no Mobile -->
+                <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul id="navbar-items" class="right hide-on-med-and-down">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li>
+                        <a class="dropdown-trigger" data-target="dropdown-menu" href="#">
+                            Contatos <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Dropdown -->
+                <ul id="dropdown-menu" class="dropdown-content">
+                    <li><a href="#">Telefone</a></li>
+                    <li><a href="#">E-mail</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Menu Mobile -->
+    <ul id="mobile-navbar" class="sidenav">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contatos</a></li>
+    </ul>
 
     <header>
         <h1>Paralax</h1>
+       
         <p>No script // only css !</p>
-        <h3>n1 dkla alknd alknd</h3>
+
     </header>
-    
-    
+    <div id="text-box">
+        <h1>
+            Title: Importants things of the word.
+        </h1>
+        <p>
+            “Eu segurava você nos braços e dizia para sua mãe, este garoto será o melhor garoto do mundo. 
+            Este garoto será alguém melhor que qualquer outra pessoa que eu já conheci. E você cresceu maravilhosamente. 
+            Era maravilhoso apenas assistir você, cada dia era um privilégio. Então chegou a hora de você ser um homem feito e conquistar o mundo, e você foi. 
+            Mas em algum momento da sua trajetória, você mudou. Você parou de ser você. Você deixou as pessoas colocarem o dedo na sua cara e dizer que você não prestava. 
+            E quando as coisas ficaram difíceis, você começou a procurar alguém pra culpar, como uma grande sombra. Deixa eu te dizer algo que você já sabe. 
+            O mundo não é um mar de rosas. É um lugar muito cruel e sórdido, e não importa o quão durão você seja, o mundo vai te bater até você ficar de joelhos e 
+            vai te manter assim permanentemente se você deixar. Nem você, nem eu, nem ninguém bate mais forte que a vida. Mas a questão não é quão forte você bate. 
+            A questão é o quanto você aguenta apanhar e continuar seguindo em frente; quanto você suporta e continua indo em frente. É disso que as vitórias são feitas! 
+            Agora, se você sabe o quanto você vale, então vá lá e reivindique. Mas você tem que estar disposto a suportar, e não apontar o dedo dizendo que você não está 
+            onde deveria estar por causa dele, dela, ou ninguém. Covardes fazem isso, e você não é covarde. Você é melhor que isso! Eu sempre amarei você, não importa o que aconteça. 
+            Não importa. Você é meu filho, meu sangue. Você é a melhor coisa da minha vida. Mas até que você comece a acreditar em si mesmo, não terá uma vida.”
+        </p>
 
-    
-   
+    </div>
 
-    
 
+
+
+
+
+
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="main.js"></script>
 </body>
 </html>
