@@ -1,0 +1,30 @@
+body {
+    background-image: url("img/12.jpg");
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div nav {
+    background-color: rgba(29, 57, 80, 0.774);
+}
+
+ul#mobile-navbar {
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+ul#mobile-navbar.sidenav a {
+    color: white;
+    text-align: center;
+}
+
+div#texto h1 {
+    text-shadow: black 5px 5px 5px;
+    font-family: ;
+
+}
+
+div#img img{
+    height: 40vmax;
+    box-shadow: black 5px;
+}
