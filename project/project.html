@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="project.css"> 
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+
+                <!-- Logo -->
+                <a href="#" class="brand-logo left">Logo</a>
+
+                <!-- Ícone para abrir no Mobile -->
+                <a href="#" data-target="mobile-navbar" class="sidenav-trigger right">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <!-- Itens Nav -->
+                <ul id="navbar-itens" class="right hide-on-med-and-down waves-effect">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#">Lojas</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Menu Mobile -->
+    <ul id="mobile-navbar" class="sidenav right">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contatos</a></li>
+        <li><a href="#">Lojas</a></li>
+    </ul>
+
+    <!-- Part1 -->
+    <div id="part1" class="hero img1 parallax">
+
+    </div>
+
+    <div id="text1" class="container hell" data-rellax-speed="-4">
+        <h1 class="hell"data-rellax-speed="-4">
+            Titulo Hero
+        </h1>
+        <p class="hell">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum aliquet urna a vestibulum. Phasellus.
+        </p>
+        <button id="b1" href="#" class="hell btn waves-effect waves-light">More
+            <i class="material-icons right">restaurant_menu</i>
+        </button>
+    </div>
+  
+
+
+
+    <!-- Part2 -->
+    <div id="text-box" class="container">
+        
+        <h2>
+            Lorem ipsum
+        </h2>
+        <a href="#" id="btn2" class="btn waves-effect waves-red ">
+            <i class="material-icons right">restaurant</i> botão
+        </a>
+        <a href="#" id="btn2" class="btn waves-effect waves-purple">
+            <i class="material-icons right">emoji_food_beverage</i> Botão
+        </a>
+        <a href="#" id="btn2" class="btn waves-effect waves-yellow">
+            <i class="material-icons right">fastfood</i> Botão
+        </a>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="project.js"></script>
+    <script>
+        var rellax = new Rellax('.hell');
+    </script>
+
+</body>
+</html>

@@ -11,7 +11,7 @@ const instancesDropdown = M.Dropdown.init(elemsDropdown, {
     coverTrigger: false
 });
 elemensSidenav = document.querySelectorAll(".sidenav");
-const instacesSidenav = M.Sidenav.init(elemensSidenav);
+const instacesSidenav = M.Sidenav.init(elemensSidenav,);
 
 // Modal
 const elemsModal = document.querySelectorAll(".modal");
